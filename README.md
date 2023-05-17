@@ -1,0 +1,17 @@
+README
+b1: Kiểm tra nove -v đã cài chưa
+b2: bật Terminal và gõ: npm install -g sass, sau đó gõ dòng
+
+  <!-- sass .sass/app.scss css/app.css --watch -->
+
+( Lệnh này sẽ biên dịch file "app.scss" trong folder ./sass/ thành CSS và lưu vào folder ./css/ với file "app.css" )
+b3: Nếu có error như sau:
+
+<!-- cannot be loaded because running scripts is disabled on this system -->
+
+Bật powerShell với quyền admin và chạy lệnh sau:
+
+<!-- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -->
+
+Then write Yes and click Enter
+b4: Vào lại Terminal gõ dòng lệnh như bước 2
