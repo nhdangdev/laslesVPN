@@ -1,17 +1,31 @@
-This text is <em><strong>really important</strong></em>.
-b1: Kiểm tra node -v đã cài chưa
-b2: bật Terminal và gõ: npm install -g sass, sau đó gõ dòng
+This is a Html5, Css, Scss project with live Server
 
-  <!-- sass .sass/app.scss css/app.css --watch -->
+##### Getting Started
 
-( Lệnh này sẽ biên dịch file "app.scss" trong folder ./sass/ thành CSS và lưu vào folder ./css/ với file "app.css" )
-b3: Nếu có error như sau:
+---
 
-<!-- cannot be loaded because running scripts is disabled on this system -->
+First, install node :
 
-Bật powerShell với quyền admin và chạy lệnh sau:
+> npm i node
+> #then check node version
+> node -v
 
-<!-- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -->
+Open Vscode then
 
-Then write Yes and click Enter
-b4: Vào lại Terminal gõ dòng lệnh như bước 2
+> #Turn on Terminal, install sass
+> npm install -g sass
+> #on Terminal, write
+> sass .sass/app.scss css/app.css --watch
+> #compile scss to css
+
+- If you see error like that:
+
+  > #cannot be loaded because running scripts is disabled on this system
+
+- In Start, turn on PowerShell, Run Administrator
+  > #Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+#Then write Yes and click Enter
+
+- Open Terminal
+  > sass .sass/app.scss css/app.css --watch
