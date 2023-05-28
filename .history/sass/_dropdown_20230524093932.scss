@@ -1,0 +1,56 @@
+// .fetch {
+//   width: 100px;
+//   height: 100px;
+//   background-color: rgb(226, 165, 52);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border-radius: 8px;
+//   margin: 10px auto;
+// }
+
+// .loader {
+//   width: 20px;
+//   height: 20px;
+//   border: 2px solid #fff;
+//   border-top: 2px solid transparent;
+//   border-radius: 100rem;
+//   animation: animtate 1s linear infinite;
+// }
+
+// @keyframes animtate {
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+.dropdown {
+  // width: 100%;
+  // max-width: 475px;
+}
+
+.dropdown-list {
+  margin-top: 10px;
+  background-color: $dropdown-bg-color-first;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.dropdown__item {
+  padding: 10px;
+  background-color: $dropdown-bg-color-first;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}

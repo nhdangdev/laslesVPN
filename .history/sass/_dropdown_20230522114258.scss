@@ -1,0 +1,18 @@
+.fetch {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(226, 165, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.loader {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border: 1px solid black;
+  border-top: 1px soild transparent;
+}
