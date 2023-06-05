@@ -14,7 +14,7 @@ Open Vscode then
 
 > #Turn on Terminal, install sass
 > npm install -g sass
-<<<<<<< HEAD
+
 > #on Terminal, write
 > sass .sass/app.scss css/app.css --watch
 > #compile scss to css
