@@ -21,24 +21,22 @@ Open Vscode then
 
 - If you see error like that:
 
-  > #cannot be loaded because running scripts is disabled on this system
+> #cannot be loaded because running scripts is disabled on this system
 
 - In Start, turn on PowerShell, Run Administrator
-  > #Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
-=======
+> #Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
 #on Terminal, write
 > sass .sass/app.scss css/app.css --watch
 #compile scss to css
 
 - If you see error like that:
 
-  > cannot be loaded because running scripts is disabled on this system
+ > cannot be loaded because running scripts is disabled on this system
 
 - In Start, turn on PowerShell, Run Administrator
-  > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
->>>>>>> 68e1474a68d6248c451a3b840c30af32c8f89b66
 
 #Then write Yes and click Enter
 
 - Open Terminal
-  > sass .sass/app.scss css/app.css --watch
+> sass .sass/app.scss css/app.css --watch
